@@ -4,8 +4,6 @@
 // Exception loading helper: /Users/mike/velocity/example/packages/jasmine-unit/lib/loader-helper.js
 // [ReferenceError: MochaWeb is not defined]
 
-if (!(typeof MochaWeb === 'undefined')){
-  MochaWeb.testOnly(function(){
     var selectGraceHopper = function(){
       Session.set("selected_player", Players.findOne({name: "Grace Hopper"})._id);
     };
@@ -57,6 +55,3 @@ if (!(typeof MochaWeb === 'undefined')){
         chai.assert(players[0].score >= players[1].score);
       });
     })
-  });
-}
-

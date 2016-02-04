@@ -6,5 +6,5 @@
 insecure
 standard-app-packages
 coffeescript
-mike:mocha
+practicalmeteor:mocha
 standard-minifiers
