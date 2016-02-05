@@ -1,3 +1,5 @@
+import { chai } from 'meteor/practicalmeteor:chai';
+
 
 // if i just call MochaWeb.testOnly I get this error
 // loading source file: /Users/mike/velocity/example/mocha-web-tests/client/clientTest.js

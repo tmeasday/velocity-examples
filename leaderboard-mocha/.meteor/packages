@@ -8,3 +8,4 @@ standard-app-packages
 coffeescript
 practicalmeteor:mocha
 standard-minifiers
+ecmascript
